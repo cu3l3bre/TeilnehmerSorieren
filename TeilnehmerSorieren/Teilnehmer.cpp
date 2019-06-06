@@ -1,5 +1,7 @@
 #include "Teilnehmer.h"
 
+
+// Defintion der Funktionen
 int sortiereNachNachname(Teilnehmer ^ t1, Teilnehmer ^ t2)
 {
 	return t1->nachname->CompareTo(t2->nachname);

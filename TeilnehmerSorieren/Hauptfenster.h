@@ -53,8 +53,6 @@ namespace TeilnehmerSorieren {
 			bernd->nachname = "Schmidt";
 			bernd->standort = "Aachen";
 			teilnehmerListe->Add(bernd);
-
-			
 		}
 
 	protected:
@@ -188,13 +186,8 @@ namespace TeilnehmerSorieren {
 #pragma endregion
 	private: System::Void button_WerteAnzeigen_Click(System::Object^  sender, System::EventArgs^  e);
 	private: System::Void button_WerteSortieren_Click(System::Object^  sender, System::EventArgs^  e);
-
-
-
-
-
-private: System::Void button_TeilnehmerAnzeigen_Click(System::Object^  sender, System::EventArgs^  e);
-private: System::Void button_TeilnehmerSortieren_Click(System::Object^  sender, System::EventArgs^  e);
-private: System::Void button_ListeLoeschen_Click(System::Object^  sender, System::EventArgs^  e);
+	private: System::Void button_TeilnehmerAnzeigen_Click(System::Object^  sender, System::EventArgs^  e);
+	private: System::Void button_TeilnehmerSortieren_Click(System::Object^  sender, System::EventArgs^  e);
+	private: System::Void button_ListeLoeschen_Click(System::Object^  sender, System::EventArgs^  e);
 };
 }
